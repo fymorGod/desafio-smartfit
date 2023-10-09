@@ -17,9 +17,10 @@ header .logo-container {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-header .logo-container img {
-  height: 100px;
+
+  img {
+    height: 100px;
+  }
 }
 
 header .text-container {
@@ -29,16 +30,15 @@ header .text-container {
   align-items: flex-start;
   max-width: 80%;
   margin: auto;
-}
 
-header .text-container h1 {
-  font-size: 34px;
-  color: var(--dark-grey);
+  h1 {
+    font-size: 34px;
+    color: var(--dark-grey);
+  }
 
-}
-
-header .text-container p {
-  color: var(--light-grey);
+  p {
+    color: var(--light-grey);
+  }
 }
 
 header .text-container .heading {
